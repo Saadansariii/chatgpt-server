@@ -21,7 +21,7 @@ const openai = new OpenAIApi(configuration)
 
 
 // listeninng
-app.listen("3080", ()=>console.log("listening on port 3080"))
+app.listen("https://gpt-backendd.vercel.app/", ()=>console.log("listening on port 3080"))
 
 
 // dummy route to test
